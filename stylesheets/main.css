@@ -1,0 +1,121 @@
+@import "whitespace-reset.css";
+
+
+body {
+    font: normal 16px Helvetica, Arial, sans-serif;
+    color: #282828;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  padding-bottom: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 19px;
+}
+
+fieldset {
+  border: none;
+  border-left: 4px solid #cdcccb;
+  background: #ececec;
+  padding: 24px 32px;
+  margin-bottom: 2px;
+}
+
+form {
+  max-width: 600px;
+  padding: 25px;
+  margin: 0 auto;
+
+}
+
+label {
+  display: block;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #666666;
+}
+
+h2 label {
+  padding-bottom: 0;
+  color: inherit;
+}
+
+label.checkbox {
+  position: relative;
+  padding: 0 0 24px 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+label.checkbox input {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  font: normal 14px Helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 5px 8px;
+  border: 1px solid #2e67b2;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+input[type="submit"] {
+  background: #0066cc;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 32px;
+  font: normal 16px Helvetica, arial, sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #5f95cc;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+}
+
+input.split {
+  width: 49%;
+}
+
+input.split + input.split {
+  margin-left: 10.625px;
+}
+
+dl.partial {
+  display: inline-block;
+  padding-right: 20px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+dl.third {
+  width: 33.33%;
+}
+
+dl.half {
+  width: 50%;
+}
+
+dl.last {
+  padding: 0;
+}
